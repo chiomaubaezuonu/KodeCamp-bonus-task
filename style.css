@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #F9FCFC;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    text-align: center;
+    padding: 2rem;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.image-and-text {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    
+    
+}
+h2 {
+    text-align: center;
+}
+.paragraph-text {
+    width: 32rem;
+    height: 11rem;
+    line-height: 1.3rem;
+    padding: 2rem;
+}
+
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    text-align: center;
+    width: 53rem;
+    height: 31rem;
+    margin: 3rem auto;
+    border-radius: 0.6rem;
+}
+.form-title {
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.input-label {
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 0.5rem;
+   }
+   .input {
+    padding: 0.4rem 4rem;
+    width: 40rem;
+    margin: 0.5rem;
+   }
+   .input-comment {
+       width: 40rem;
+       height: 10rem;
+   }
+.submit {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 4rem;
+    margin-right: 6.5rem;
+}
+button {
+    padding: 0.4rem 1.2rem;
+    background:#004DE6C2;
+    border: none;
+    border-radius: 0.2rem;
+    color: white;
+}
+@media (max-width: 600px) {
+.main-content {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    }
+.image-and-text {
+    display: flex;
+    flex-direction: column;
+    height: 12rem;
+    margin-top: 29rem;
+}
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+}
+.paragraph-text {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    text-align: center;
+    margin: auto;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60rem;
+}
+.form-title{ 
+    padding-top: 2rem;
+}
+h1 {
+    font-size: 2rem;
+    padding-top: 3rem;
+}
+.input-label {
+    font-size: 2rem;
+    padding: 2rem;
+}
+.input {
+    width: 30rem;
+    border: 0.1rem solid black;
+}
+.input-comment {
+    border: 0.1rem solid black;
+}
+}
